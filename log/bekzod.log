@@ -1,0 +1,176 @@
+{
+  meta: {
+    error: SyntaxError: Expected ',' or '}' after property value in JSON at position 62
+        at JSON.parse (<anonymous>)
+        at parse (C:\Users\User\Desktop\ustoz\node_modules\body-parser\lib\types\json.js:89:19)
+        at C:\Users\User\Desktop\ustoz\node_modules\body-parser\lib\read.js:128:18
+        at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+        at invokeCallback (C:\Users\User\Desktop\ustoz\node_modules\raw-body\index.js:231:16)
+        at done (C:\Users\User\Desktop\ustoz\node_modules\raw-body\index.js:220:7)
+        at IncomingMessage.onEnd (C:\Users\User\Desktop\ustoz\node_modules\raw-body\index.js:280:7)
+        at IncomingMessage.emit (node:events:514:28)
+        at endReadableNT (node:internal/streams/readable:1589:12)
+        at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+      expose: true,
+      statusCode: 400,
+      status: 400,
+      body: '{\r\n' +
+        '\r\n' +
+        '    "author_email":"bekzodtoxtamuratov01@gmail.com"\r\n' +
+        '    "author_password":"AB123456"\r\n' +
+        '\r\n' +
+        '}\r\n' +
+        '\r\n',
+      type: 'entity.parse.failed'
+    },
+    level: 'error',
+    message: "uncaughtException: Expected ',' or '}' after property value in JSON at position 62\n" +
+      "SyntaxError: Expected ',' or '}' after property value in JSON at position 62\n" +
+      '    at JSON.parse (<anonymous>)\n' +
+      '    at parse (C:\\Users\\User\\Desktop\\ustoz\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n' +
+      '    at C:\\Users\\User\\Desktop\\ustoz\\node_modules\\body-parser\\lib\\read.js:128:18\n' +
+      '    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n' +
+      '    at invokeCallback (C:\\Users\\User\\Desktop\\ustoz\\node_modules\\raw-body\\index.js:231:16)\n' +
+      '    at done (C:\\Users\\User\\Desktop\\ustoz\\node_modules\\raw-body\\index.js:220:7)\n' +
+      '    at IncomingMessage.onEnd (C:\\Users\\User\\Desktop\\ustoz\\node_modules\\raw-body\\index.js:280:7)\n' +
+      '    at IncomingMessage.emit (node:events:514:28)\n' +
+      '    at endReadableNT (node:internal/streams/readable:1589:12)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)',
+    stack: "SyntaxError: Expected ',' or '}' after property value in JSON at position 62\n" +
+      '    at JSON.parse (<anonymous>)\n' +
+      '    at parse (C:\\Users\\User\\Desktop\\ustoz\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n' +
+      '    at C:\\Users\\User\\Desktop\\ustoz\\node_modules\\body-parser\\lib\\read.js:128:18\n' +
+      '    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n' +
+      '    at invokeCallback (C:\\Users\\User\\Desktop\\ustoz\\node_modules\\raw-body\\index.js:231:16)\n' +
+      '    at done (C:\\Users\\User\\Desktop\\ustoz\\node_modules\\raw-body\\index.js:220:7)\n' +
+      '    at IncomingMessage.onEnd (C:\\Users\\User\\Desktop\\ustoz\\node_modules\\raw-body\\index.js:280:7)\n' +
+      '    at IncomingMessage.emit (node:events:514:28)\n' +
+      '    at endReadableNT (node:internal/streams/readable:1589:12)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)',
+    exception: true,
+    date: 'Mon Feb 26 2024 16:41:21 GMT+0500 (Uzbekistan Standard Time)',
+    process: {
+      pid: 9092,
+      uid: null,
+      gid: null,
+      cwd: 'C:\\Users\\User\\Desktop\\ustoz',
+      execPath: 'C:\\Program Files\\nodejs\\node.exe',
+      version: 'v20.10.0',
+      argv: [
+        'C:\\Program Files\\nodejs\\node.exe',
+        'C:\\Users\\User\\Desktop\\ustoz\\app_old.js'
+      ],
+      memoryUsage: {
+        rss: 70758400,
+        heapTotal: 34398208,
+        heapUsed: 31386408,
+        external: 38928670,
+        arrayBuffers: 36528122
+      }
+    },
+    os: { loadavg: [ 0, 0, 0 ], uptime: 2144.406 },
+    trace: [
+      {
+        column: null,
+        file: null,
+        function: 'JSON.parse',
+        line: null,
+        method: 'parse',
+        native: false
+      },
+      {
+        column: 19,
+        file: 'C:\\Users\\User\\Desktop\\ustoz\\node_modules\\body-parser\\lib\\types\\json.js',
+        function: 'parse',
+        line: 89,
+        method: null,
+        native: false
+      },
+      {
+        column: 18,
+        file: 'C:\\Users\\User\\Desktop\\ustoz\\node_modules\\body-parser\\lib\\read.js',
+        function: null,
+        line: 128,
+        method: null,
+        native: false
+      },
+      {
+        column: 9,
+        file: 'node:async_hooks',
+        function: 'AsyncResource.runInAsyncScope',
+        line: 206,
+        method: 'runInAsyncScope',
+        native: false
+      },
+      {
+        column: 16,
+        file: 'C:\\Users\\User\\Desktop\\ustoz\\node_modules\\raw-body\\index.js',
+        function: 'invokeCallback',
+        line: 231,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: 'C:\\Users\\User\\Desktop\\ustoz\\node_modules\\raw-body\\index.js',
+        function: 'done',
+        line: 220,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: 'C:\\Users\\User\\Desktop\\ustoz\\node_modules\\raw-body\\index.js',
+        function: 'IncomingMessage.onEnd',
+        line: 280,
+        method: 'onEnd',
+        native: false
+      },
+      {
+        column: 28,
+        file: 'node:events',
+        function: 'IncomingMessage.emit',
+        line: 514,
+        method: 'emit',
+        native: false
+      },
+      {
+        column: 12,
+        file: 'node:internal/streams/readable',
+        function: 'endReadableNT',
+        line: 1589,
+        method: null,
+        native: false
+      },
+      {
+        column: 21,
+        file: 'node:internal/process/task_queues',
+        function: 'process.processTicksAndRejections',
+        line: 82,
+        method: 'processTicksAndRejections',
+        native: false
+      }
+    ],
+    req: {
+      url: '/api/author/login',
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.36.3',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'ca012463-3ed4-441f-80c3-b8492eedd8a2',
+        host: 'localhost:3003',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '99',
+        cookie: 'refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZGFlZWIzZTc3ZjZjZmM4MTAxMTY0NyIsImlzX2V4cGVydCI6dHJ1ZSwiYXV0aG9yUm9sZXMiOlsiUkVEIiwiV1JJVEUiXSwiaWF0IjoxNzA4OTQ3NjYwLCJleHAiOjE3MTAyNDM2NjB9.E_Xq4j7KpNZHs_gn5tRSzwkZlSPUmUOOMJTLh1DI-3k'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/author/login',
+      query: {}
+    }
+  },
+  level: 'error',
+  message: 'middlewareError'
+}

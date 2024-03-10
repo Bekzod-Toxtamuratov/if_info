@@ -1,0 +1,17 @@
+{
+  "port": 3003,
+  "dbUri": "mongodb://127.0.0.1:27017/itinfo",
+  "tokenKey": "MyVeryVerySecretKey1",
+  "tokenTime": 86400000,
+  "secret": "default-jsonniki",
+  "access_key": "MyAccessTokenSecretKey",
+  "refresh_key": "MyRefreshTokenSecretKey",
+  "access_time": "15s",
+  "refresh_time": "30s",
+  "refresh_ms": 186400000,
+  "smtp_password": "iriubiqmwofthxxf",
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "smtp_user": "bekzodtoxtamuratov01@gmail.com",
+  "api_url": "http://localhost"
+}
