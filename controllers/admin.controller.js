@@ -30,7 +30,7 @@ const addAdmin = async (req, res) => {
       created_date,
       updated_date,
     } = value;
-    const hashedPassword = bcrypt.hashSync(admin_password, 7);
+    const hashedPassword = bcrypt.hashSync(admin_password,7);
 
     const newAdmin = await Admin({
       admin_name,
